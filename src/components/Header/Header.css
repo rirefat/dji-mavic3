@@ -21,3 +21,6 @@
     margin: 10px 10px;
     cursor: pointer;
 }
+.nav-bar .nav-menu a:hover{
+    color: rgb(249 115 22);
+}
