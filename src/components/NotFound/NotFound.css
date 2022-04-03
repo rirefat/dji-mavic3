@@ -1,0 +1,16 @@
+.not-found-page{
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.not-found-page h1{
+    color: whitesmoke;
+    font-size: 12rem;
+    margin: 0;
+    font-family: 'Gruppo', cursive;
+}
+.not-found-page p{
+    color: lightgray;
+}
