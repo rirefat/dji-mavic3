@@ -1,0 +1,23 @@
+.nav-bar{
+    width: 85%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .nav-icon img{
+    width: 15%;
+    transition: 1s;
+    cursor: pointer;
+}
+.nav-bar .nav-icon img:hover{
+    transform: scale(1.1);
+}
+.nav-bar .nav-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightgray;
+    font-size: 18px;
+    margin: 10px 10px;
+    cursor: pointer;
+}

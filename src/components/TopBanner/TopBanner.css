@@ -1,9 +1,8 @@
 
 .top-banner{
     color: white;
-    border: 1px solid white;
     background: url('/src/components/Images/top-banner.jpg');
-    height: 95vh;
+    height: 70vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -35,6 +34,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-bottom: 2.8rem;
+    color: lightgrey;
 }
 .right-part button{
     border: 4px solid rgb(249 115 22);
