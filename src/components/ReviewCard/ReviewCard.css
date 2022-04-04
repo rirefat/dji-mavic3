@@ -1,7 +1,7 @@
 .review-part{
     color: white;
     background-color: #2f3542;
-    border: 1px solid lightgray;
+    border: 1px solid lightslategray;
     border-radius: 12px;
     margin: 18px 35px;
     padding: 25px;
@@ -34,6 +34,18 @@
 .card-details .ratings{
     margin: 0;
     color: orange;
+}
+.card-details .icons{
+    display: flex;
+}
+.card-details .single-icon{
+    margin-right: 2px;
+    width: 22px;
+    height: 22px;
+    color: orange;
+}
+.card-details .empty{
+    color: lightslategray;
 }
 .card-details .review-details{
     color: lightgrey;

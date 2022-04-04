@@ -1,7 +1,6 @@
 .user-review-page .title{
     text-align: center;
     color: white;
-    /* font-family: 'Gruppo', cursive; */
     font-family: 'Dancing Script', cursive;
     font-size: 22px;
     margin-top: 54px;
@@ -17,13 +16,47 @@
 }
 
 .ratings-container{
+    margin-top: 15px;
    color: aliceblue;
+   background-color: #353b48;
+   height: fit-content;   
+   padding: 35px 15px;
+   border-radius: 12px;
+   position: sticky;
+   top: 10px;
 }
-.ratings-container .ratings-box{
-    background-color: #353b48;
-    height: fit-content;
-    padding: 35px 15px;
-    border-radius: 12px;
-    position: sticky;
-    top: 10px;
+.ratings-container h1{
+    text-align: center;
+    color: lightslategray;
+    font-weight: 400;
+    margin: 0;
+}
+.ratings .final-rating{
+    font-size: 2.5em;
+    color: orange;
+    
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.top-icon{
+    width: 95px;
+    height: 95px;
+    padding: 15px;
+    background-color: lightslategray;
+    border-radius: 50%;
+}
+.star-icons{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+.star-icons .single-icon{
+    width: 30px;
+    height: 30px;
+}
+.star-icons .empty{
+    color: lightslategray;
 }

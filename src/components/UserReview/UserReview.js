@@ -1,6 +1,7 @@
 import React from 'react';
 import useReviews from '../../Utilities/CustomHok/useReviews';
 import ReviewCard from '../ReviewCard/ReviewCard';
+import { SparklesIcon, StarIcon } from '@heroicons/react/solid';
 import './UserReview.css'
 
 const UserReview = () => {
@@ -18,7 +19,17 @@ const UserReview = () => {
                 </div>
                 <div className="ratings-container">
                     <div>
-                        <h1 className='ratings-box'>Ratings: 4.9/5.0</h1>
+                        <div className="top-section">
+                            <div className='top-icon'><SparklesIcon></SparklesIcon></div>
+                        </div>
+                        <h1 className='ratings'>Ratings : <span className='final-rating'>4.85</span>/5.0</h1>
+                        <div className="star-icons">
+                            <div className="single-icon"><StarIcon></StarIcon></div>
+                            <div className="single-icon"><StarIcon></StarIcon></div>
+                            <div className="single-icon"><StarIcon></StarIcon></div>
+                            <div className="single-icon"><StarIcon></StarIcon></div>
+                            <div className="single-icon empty"><StarIcon></StarIcon></div>
+                        </div>
                     </div>
                 </div>
             </div>
