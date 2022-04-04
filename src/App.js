@@ -10,6 +10,7 @@ import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 
 function App() {
+  
   return (
     <div>
       <Header></Header>
