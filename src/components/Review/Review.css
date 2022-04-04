@@ -1,0 +1,12 @@
+.single-review-container{
+    color: white;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 12px;
+    padding: 18px;
+}
+.single-review-container img{
+    width: 65px;
+    height: 65px;
+    border-radius: 8px 12px ;
+}

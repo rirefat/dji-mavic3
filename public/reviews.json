@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "reviewer_name": "John Doe",
+        "review_body": "I am coming from Mavic Air 1, so the jump is super huge, the noise from the drone is so much lesser than I was expecting and the camera is HUGE. The quality is great! Excited to shoot a lot more with this drone",
+        "rating": 4.9,
+        "date": "2nd Apr 2022"
+    },
+    {
+        "id": 2,
+        "img":"https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "reviewer_name": "JK Smith",
+        "review_body": "This drone is not ready for sale. None of the features are available to use until next year! Why did they release a drone that cannot be used for its intended purposes? Will give this a try until January but this is a great disappointment.",
+        "rating": 4.79,
+        "date": "15th Mar 2022"
+    },
+    {
+        "id": 3,
+        "img":"https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "reviewer_name": "Rose Daniel",
+        "review_body": "Have done some testing and there is a noticeable difference in quality at night. Overall it looks closer to a full frame camera with brighter shots in video, more detail and less noise. USB C charging is awesome that they added that.",
+        "rating": 4.95,
+        "date": "10th Feb 2022"
+    },
+    {
+        "id": 4,
+        "img":"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "reviewer_name": "Alexa Sandro",
+        "review_body": "The quality of the product and footage / photos is out of this world. For a consumer-level product DJI never ceases to amaze. 10 out of 5.",
+        "rating": 5.0,
+        "date": "2nd Feb 2022"
+    },
+    {
+        "id": 5,
+        "img":"https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "reviewer_name": "Samuel Zor",
+        "review_body": "Bought the CINE version because at the time of this review Fly more combo was $3,950.00 quite high considering it was only $3,600.00 a few days ago. For extra $2000 the cine version seemed like a better deal with the RC Pro remote and 1TB onboard SSD since I would have purchased the remote separately anyway.",
+        "rating": 4.85,
+        "date": "20th Jan 2022"
+    },
+    {
+        "id": 6,
+        "img":"https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg",
+        "reviewer_name": "Smith Jonson",
+        "review_body": "The DJI Mavic 3 cine pro is absolutely amazing in every way. The two most important things about this drone are the flying ability of the aircraft and the ultra high-res images it can capture. It's also easy to use. I suggest getting the full deluxe combo package for it.",
+        "rating": 5.0,
+        "date": "16th Jan 2022"
+    }
+]

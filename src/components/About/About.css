@@ -1,0 +1,10 @@
+.about-page .title{
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    margin-top: 54px;
+}
+.about-page .title .target-text{
+    color: rgb(249 115 22);
+}

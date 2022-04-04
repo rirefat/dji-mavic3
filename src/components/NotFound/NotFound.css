@@ -9,8 +9,11 @@
     color: whitesmoke;
     font-size: 12rem;
     margin: 0;
-    font-family: 'Gruppo', cursive;
 }
 .not-found-page p{
     color: lightgray;
+    font-size: 22px;
+}
+#target-text{
+    color: rgb(249 115 22);
 }
