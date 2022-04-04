@@ -9,3 +9,10 @@
 .dashboard-page .title .target-text{
     color: rgb(249 115 22);
 }
+.chart-container{
+    width: 85%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}

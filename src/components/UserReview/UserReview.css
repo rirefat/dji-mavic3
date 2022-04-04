@@ -11,7 +11,19 @@
 }
 .review-container{
     width: 85%;
-    margin: auto;
+    margin:55px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.ratings-container{
+   color: aliceblue;
+}
+.ratings-container .ratings-box{
+    background-color: #353b48;
+    height: fit-content;
+    padding: 35px 15px;
+    border-radius: 12px;
+    position: sticky;
+    top: 10px;
 }

@@ -10,7 +10,7 @@ const ReviewCard = (props) => {
                     <img src={img} alt="" />
                     <div className='card-details'>
                         <h3>{reviewer_name}</h3>
-                        <p className='ratings'>({rating})</p>
+                        <p className='ratings'>Rating: ({rating})</p>
                         <p className='review-details'>{review_body}</p>
                         <p className='date'>Date: {date}</p>
                     </div>

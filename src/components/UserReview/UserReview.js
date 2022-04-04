@@ -16,6 +16,11 @@ const UserReview = () => {
                         reviews.map(review=><ReviewCard review={review} key={review.id}></ReviewCard>)
                     }
                 </div>
+                <div className="ratings-container">
+                    <div>
+                        <h1 className='ratings-box'>Ratings: 4.9/5.0</h1>
+                    </div>
+                </div>
             </div>
         </div>
     );
