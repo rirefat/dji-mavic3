@@ -1,5 +1,5 @@
 import './MonthlySell.css'
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import useData from '../../Utilities/CustomHok/useData';
 
 const MonthlySell = () => {
@@ -20,6 +20,7 @@ const MonthlySell = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
+                    <Legend></Legend>
                 </LineChart>
             </div>
         </div>
