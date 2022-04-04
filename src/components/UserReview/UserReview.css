@@ -9,3 +9,9 @@
 .user-review-page .title .target-text{
     color: rgb(249 115 22);
 }
+.review-container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

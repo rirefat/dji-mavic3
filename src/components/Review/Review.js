@@ -2,8 +2,7 @@ import React from 'react';
 import './Review.css'
 
 const Review = (props) => {
-    const {id,img,reviewer_name,review_body,rating,date}=props.topReview;
-    // console.log(reviewer_name)
+    const {img,reviewer_name,review_body,rating,date}=props.topReview;
     return (
         <div className='single-review-container'>            
             <img src={img} alt="" />

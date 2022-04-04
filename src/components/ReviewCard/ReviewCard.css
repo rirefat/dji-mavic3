@@ -1,0 +1,38 @@
+.review-part{
+    color: white;
+    background-color: #2f3542;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin: 10px 0;
+    padding: 25px;
+    height: fit-content;
+    width: 100%;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+}
+.card-body img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.card-details{
+    margin-left: 15px;
+}
+.card-details h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+.card-details .ratings{
+    margin: 0;
+    color: orange;
+}
+.card-details .review-details{
+    color: lightgrey;
+}
+.card-details .date{
+    margin: 0;
+    color: #747d8c;
+}
