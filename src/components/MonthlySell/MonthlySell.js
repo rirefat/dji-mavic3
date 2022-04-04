@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
 import './MonthlySell.css'
-
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import useData from '../../Utilities/CustomHok/useData';
 
 const MonthlySell = () => {
-    const [datas, setDatas]=useState([]);
-    useEffect(()=>{
-        fetch('data.json')
-            .then(res=>res.json())
-            .then(data=>setDatas(data))
-    },[])
+    // const [datas, setDatas]=useState([]);
+    // useEffect(()=>{
+    //     fetch('data.json')
+    //         .then(res=>res.json())
+    //         .then(data=>setDatas(data))
+    // },[]);
+    const [datas, setDatas] = useData();
     return (
         <div>
             <h1 className='chart-title'>Monthly Sell</h1>

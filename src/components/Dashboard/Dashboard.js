@@ -1,4 +1,5 @@
 import React from 'react';
+import MonthlyInvestment from '../MonthlyInvestment/MonthlyInvestment';
 import MonthlySell from '../MonthlySell/MonthlySell';
 import './Dashboard.css'
 
@@ -10,7 +11,7 @@ const Dashboard = () => {
             </div>
             <div className="chart-container">
                 <MonthlySell></MonthlySell>
-                <MonthlySell></MonthlySell>
+                <MonthlyInvestment></MonthlyInvestment>
             </div>
         </div>
     );
