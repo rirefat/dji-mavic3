@@ -9,3 +9,27 @@
 .blog-page .title .target-text{
     color: rgb(249 115 22);
 }
+.qna-container{
+    width: 85%;
+    margin: 75px auto;
+}
+.qna-container h3{
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    margin: 0;
+}
+.qna-container span{
+    color: rgb(249 115 22);
+}
+.qna-container p{
+    color: lightgray;
+    font-size: 16px;
+    text-align: justify;
+}
+.qna-container strong{
+    color: white;
+}
+.qna-container .single-qna{
+    margin: 30px 0;
+}
