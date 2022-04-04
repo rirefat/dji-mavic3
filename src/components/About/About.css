@@ -8,3 +8,46 @@
 .about-page .title .target-text{
     color: rgb(249 115 22);
 }
+.description .description-title{
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+    letter-spacing: 0.55em;
+    color: white;
+    text-align: center;
+}
+.description .sub-title{
+    font-family: 'Gruppo', cursive;
+    font-size: 15px;
+    letter-spacing: 0.55em;
+    color: lightgray;
+    text-align: center;
+}
+.top-section{
+    color: lightgray;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.description .top-section{
+    display: flex;
+}
+.description .top-section img{
+    width: 100%;
+}
+.bottom-section{
+    width: 88%;
+    margin: auto;
+    color: lightgrey;
+    letter-spacing: 0.04em;
+}
+.bottom-section .explanations{
+    margin-top: 3%;
+}
+
+.bottom-img{
+    background:url('../Images/dji-mavic.png');
+    height: 675px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
