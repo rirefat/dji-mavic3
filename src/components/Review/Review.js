@@ -6,10 +6,10 @@ const Review = (props) => {
     return (
         <div className='single-review-container'>            
             <img src={img} alt="" />
-            <h2>{reviewer_name}</h2>                       
-            <p>Rating: {rating}</p>
-            <p>{review_body}</p>       
-            <p>Date: {date}</p>
+            <h2 className='reviewer-name'>{reviewer_name}</h2>                       
+            <p className='ratings'>Rating: {rating}</p>
+            <p className='review-body'>{review_body}</p>       
+            <p className='date'>Date: {date}</p>
         </div>
     );
 };

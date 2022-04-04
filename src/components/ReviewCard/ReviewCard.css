@@ -12,6 +12,10 @@
 .card-body{
     display: flex;
     align-items: center;
+    background-image: url(../Images/quote.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right top;
 }
 .card-body img{
     width: 110px;

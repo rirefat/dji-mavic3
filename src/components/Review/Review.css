@@ -1,12 +1,31 @@
 .single-review-container{
     color: white;
     text-align: center;
-    border: 1px solid orange;
+    border: 1px solid lightslategray;
     border-radius: 12px;
     padding: 18px;
+    background-color: #1e272e;
+    background-image: url(../Images/quote.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right top;
 }
 .single-review-container img{
-    width: 65px;
-    height: 65px;
-    border-radius: 8px 12px ;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+}
+.single-review-container .reviewer-name{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.single-review-container .ratings{
+    color: goldenrod;
+    margin: 0;
+}
+.single-review-container .review-body{
+    color: lightgrey;
+}
+.single-review-container .date{
+    color: #636e72;
 }
