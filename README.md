@@ -8,3 +8,11 @@
  - There is a dedicated page for customer reviews and all reviews can be found there.
  - There is a dashboard where the monthly selling statistics are given.
 
+## Used Technologies are :
+- HTML
+- CSS 
+- Javascript
+- ReactJS
+- React Router
+- React Rechart
+- Heroicons 
